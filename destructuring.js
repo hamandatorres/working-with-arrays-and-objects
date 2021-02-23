@@ -22,6 +22,7 @@ var carDetails = {
 */
 
 //Code Here
+let { color, make, model, year} = carDetails;
 
 
 
@@ -32,15 +33,20 @@ var carDetails = {
   Use object destructuring to save the object properties to new variables. 
   The property names are firstName, lastName, and title.
 */
-
+let obj = {
+  firstName:``,
+  lastName:``,
+  title:``,
+}
 function greeting( obj ) {
   //Code Here
-  
+  let { firstName, lastName, title } = greeting;
   // Do not edit the code below.
   return 'Hello, ' + title + ' ' + firstName + ' ' + lastName + '!';
   // Do not edit the code above.
 }
-
+// console.log(greeting(obj))
+// console.log(firstName)
 
 
 ////////// PROBLEM 3 //////////
@@ -54,8 +60,16 @@ function greeting( obj ) {
 */
 
 //Code Here
-
-
+// function totalPopulation(obj) {
+//   let (obj) = {
+//   utah: 1,
+//   california: 1,
+//   texas: 1,
+//   arizona: 1
+//   }
+//   let { utah, california, texas, arizona } = totalPopulation
+//   console.log(utah)
+// }
 
 ////////// PROBLEM 4 //////////
 
@@ -69,7 +83,16 @@ function greeting( obj ) {
 
 //Code Here
 
-
+function ingredients(obj2 = {
+  carb:``,
+  fat: ``,
+  protein: ``,
+}
+let {carb, fat, protein} = obj
+function array({obj2}) {
+  return array
+}
+console.log(array)
 
 ////////// PROBLEM 5 //////////
 
@@ -86,7 +109,9 @@ function greeting( obj ) {
 */
 
 //Code Here
-
+function largeNumbers( { first, second, third} ) {
+  
+}
 
 
 ////////// PROBLEM 6 //////////
@@ -98,5 +123,7 @@ function greeting( obj ) {
 */
 
 //Code Here
-
+function numberGroups ( { a, b, c} ) {
+  
+}
 
