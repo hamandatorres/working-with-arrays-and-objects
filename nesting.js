@@ -51,7 +51,15 @@ var employees = [
 */
 
 //Code Here
-
+function employeeUpdater () {
+  for (let i = 0; i < 5; i++) {
+    if (employees[i] === "Theo") {
+      delete firstName
+    } if (employees[i] === "Lorie") {
+      employees.splice(i, i, 'HR')
+    } 
+  } 
+} return employeeUpdater
 
 
 ////////// PROBLEM 2 //////////

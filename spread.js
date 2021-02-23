@@ -19,7 +19,8 @@ let product = {
 
 // code here
 
-
+const productCopy = {...product}
+console.log(productCopy)
 
 
 ////////// PROBLEM 2 //////////
@@ -29,6 +30,8 @@ let product = {
 let colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
 
 // code here
+const colorsCopy = {...colors}
+console.log(colorsCopy)
 
 
 
@@ -45,6 +48,7 @@ function addNums(num1, num2, num3) {
 
 // code here
 
+console.log(addNums)
 
 ////////// PROBLEM 4 //////////
 
